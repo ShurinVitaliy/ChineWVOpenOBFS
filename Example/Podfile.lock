@@ -1,0 +1,16 @@
+PODS:
+  - ChineWVOpenOBFS (0.1.0)
+
+DEPENDENCIES:
+  - ChineWVOpenOBFS (from `../`)
+
+EXTERNAL SOURCES:
+  ChineWVOpenOBFS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChineWVOpenOBFS: 15cfad5ad89c936cfc48c1c9c6ce20641c922d9d
+
+PODFILE CHECKSUM: 18f95eba19133061e3def760bf063504fa48b299
+
+COCOAPODS: 1.8.4

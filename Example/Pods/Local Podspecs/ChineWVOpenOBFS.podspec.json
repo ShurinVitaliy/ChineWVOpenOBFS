@@ -1,0 +1,22 @@
+{
+  "name": "ChineWVOpenOBFS",
+  "version": "0.1.0",
+  "summary": "A short description of ChineWVOpenOBFS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vitaliy/ChineWVOpenOBFS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vitaliy": "34574399+ShurinVitaliy@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/Vitaliy/ChineWVOpenOBFS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ChineWVOpenOBFS/Classes/**/*"
+}

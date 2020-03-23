@@ -1,6 +1,6 @@
 use_frameworks!
 target 'ChineWVOpenOBFS_Tests' do
-  pod 'ChineWVOpenOBFS', :path => '../'
+  pod 'ChineWVOpenOBFS'
   
   
 end

@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF50FC0D87917A9339423BD4583ED59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; platformFilter = ios; };
+		5E049730AB1C260419875094920D4059 /* Pods-ChineWVOpenOBFS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D89CDDACE42C6A8E33AF1B5362478E65 /* Pods-ChineWVOpenOBFS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4C539277DD13B00E862EF3122E872D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C4542AC5E904D71C4BDC977FFE559628 /* ChineWVOpenOBFS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE1DEF97CD9E7B67063B592BFB2E7F1 /* ChineWVOpenOBFS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F406F5852424A7DC00854D00 /* ChineWVOpenOBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406F5842424A7DC00854D00 /* ChineWVOpenOBFS.swift */; };
+		F406F58B2424C9E600854D00 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406F58A2424C9E600854D00 /* Reachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B0261F3413D0C774E46165128A0B277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6537B356E144CA0F3987CE0906E7CFC;
+			remoteInfo = ChineWVOpenOBFS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09822D6F35696D74EF92081330C50783 /* Pods-ChineWVOpenOBFS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChineWVOpenOBFS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1060FEE5707FB6E45544B75C15E692E2 /* ChineWVOpenOBFS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChineWVOpenOBFS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18035623A0E034C7E48295E1B4E20DB4 /* ChineWVOpenOBFS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChineWVOpenOBFS.modulemap; sourceTree = "<group>"; };
+		1ED5E661AD11F2EA5B41DFCC2A7FD04B /* Pods-ChineWVOpenOBFS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChineWVOpenOBFS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F8A51CAA404DEC130E56B61263C8AA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2165FC777E375F3B39414D83BA367484 /* Pods-ChineWVOpenOBFS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChineWVOpenOBFS_Tests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		323F1DAD0708281787F3C51AA27FCE85 /* ChineWVOpenOBFS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChineWVOpenOBFS-prefix.pch"; sourceTree = "<group>"; };
+		3378A904D456C0B85DB4BA1E624DAC6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		38A5DB4C6079008110131ABEBB863568 /* ChineWVOpenOBFS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChineWVOpenOBFS-Info.plist"; sourceTree = "<group>"; };
+		414E4D2583ECE82620A2B0066989106B /* ChineWVOpenOBFS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChineWVOpenOBFS.xcconfig; sourceTree = "<group>"; };
+		6CE1DEF97CD9E7B67063B592BFB2E7F1 /* ChineWVOpenOBFS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChineWVOpenOBFS-umbrella.h"; sourceTree = "<group>"; };
+		77993C9A0DFDA0289653F60C041CD890 /* Pods_ChineWVOpenOBFS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChineWVOpenOBFS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C69AB94DAFFD18618E7B95780BFDCDA /* Pods-ChineWVOpenOBFS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChineWVOpenOBFS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7ED4D2874503E788B67A0D65D0E536C2 /* Pods-ChineWVOpenOBFS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChineWVOpenOBFS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3114B7F299966F7CB0AEBA391C2F553 /* Pods-ChineWVOpenOBFS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChineWVOpenOBFS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C2FFFBCA3409794C34C77B6D1131F156 /* Pods-ChineWVOpenOBFS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChineWVOpenOBFS_Tests-Info.plist"; sourceTree = "<group>"; };
+		D89CDDACE42C6A8E33AF1B5362478E65 /* Pods-ChineWVOpenOBFS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChineWVOpenOBFS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DEE8FD9F8B16146094E3CCF13F7126C4 /* Pods-ChineWVOpenOBFS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChineWVOpenOBFS_Tests-dummy.m"; sourceTree = "<group>"; };
+		E02DBF80DC058408396602C8B5140DF8 /* ChineWVOpenOBFS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ChineWVOpenOBFS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1F48A5F4F567CF9882E4C6C2D1B27B4 /* ChineWVOpenOBFS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChineWVOpenOBFS-dummy.m"; sourceTree = "<group>"; };
+		F406F5842424A7DC00854D00 /* ChineWVOpenOBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineWVOpenOBFS.swift; sourceTree = "<group>"; };
+		F406F58A2424C9E600854D00 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5506418C0CF6B8BBDF0312AFBF37FD51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4C539277DD13B00E862EF3122E872D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEA6277D3A84A1BBF11819EFE42AD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF50FC0D87917A9339423BD4583ED59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DA55137CEEB3C8B61FB2C85A7BCE7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18035623A0E034C7E48295E1B4E20DB4 /* ChineWVOpenOBFS.modulemap */,
+				414E4D2583ECE82620A2B0066989106B /* ChineWVOpenOBFS.xcconfig */,
+				E1F48A5F4F567CF9882E4C6C2D1B27B4 /* ChineWVOpenOBFS-dummy.m */,
+				38A5DB4C6079008110131ABEBB863568 /* ChineWVOpenOBFS-Info.plist */,
+				323F1DAD0708281787F3C51AA27FCE85 /* ChineWVOpenOBFS-prefix.pch */,
+				6CE1DEF97CD9E7B67063B592BFB2E7F1 /* ChineWVOpenOBFS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ChineWVOpenOBFS";
+			sourceTree = "<group>";
+		};
+		2ABD31ED514EEB204E7687CE5EC2723D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E02DBF80DC058408396602C8B5140DF8 /* ChineWVOpenOBFS.podspec */,
+				1F8A51CAA404DEC130E56B61263C8AA8 /* LICENSE */,
+				3378A904D456C0B85DB4BA1E624DAC6C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		834ED95BBC62A45C85439FADA4300767 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC856DEDE3109AE175D0DC05CA791B22 /* ChineWVOpenOBFS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A9F332D22D9F37CB6B58A9A6A013858 /* Pods-ChineWVOpenOBFS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2165FC777E375F3B39414D83BA367484 /* Pods-ChineWVOpenOBFS_Tests.modulemap */,
+				7ED4D2874503E788B67A0D65D0E536C2 /* Pods-ChineWVOpenOBFS_Tests-acknowledgements.markdown */,
+				1ED5E661AD11F2EA5B41DFCC2A7FD04B /* Pods-ChineWVOpenOBFS_Tests-acknowledgements.plist */,
+				DEE8FD9F8B16146094E3CCF13F7126C4 /* Pods-ChineWVOpenOBFS_Tests-dummy.m */,
+				B3114B7F299966F7CB0AEBA391C2F553 /* Pods-ChineWVOpenOBFS_Tests-frameworks.sh */,
+				C2FFFBCA3409794C34C77B6D1131F156 /* Pods-ChineWVOpenOBFS_Tests-Info.plist */,
+				D89CDDACE42C6A8E33AF1B5362478E65 /* Pods-ChineWVOpenOBFS_Tests-umbrella.h */,
+				09822D6F35696D74EF92081330C50783 /* Pods-ChineWVOpenOBFS_Tests.debug.xcconfig */,
+				7C69AB94DAFFD18618E7B95780BFDCDA /* Pods-ChineWVOpenOBFS_Tests.release.xcconfig */,
+			);
+			name = "Pods-ChineWVOpenOBFS_Tests";
+			path = "Target Support Files/Pods-ChineWVOpenOBFS_Tests";
+			sourceTree = "<group>";
+		};
+		B3404AB7F29591E2A3D6540CA1AD71B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9F332D22D9F37CB6B58A9A6A013858 /* Pods-ChineWVOpenOBFS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC856DEDE3109AE175D0DC05CA791B22 /* ChineWVOpenOBFS */ = {
+			isa = PBXGroup;
+			children = (
+				F406F5832424A7B600854D00 /* Classes */,
+				2ABD31ED514EEB204E7687CE5EC2723D /* Pod */,
+				04DA55137CEEB3C8B61FB2C85A7BCE7B /* Support Files */,
+			);
+			name = ChineWVOpenOBFS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				834ED95BBC62A45C85439FADA4300767 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D4F5B10978542E8859E143E36A3D0962 /* Products */,
+				B3404AB7F29591E2A3D6540CA1AD71B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F5B10978542E8859E143E36A3D0962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1060FEE5707FB6E45544B75C15E692E2 /* ChineWVOpenOBFS.framework */,
+				77993C9A0DFDA0289653F60C041CD890 /* Pods_ChineWVOpenOBFS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F406F5832424A7B600854D00 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F406F5842424A7DC00854D00 /* ChineWVOpenOBFS.swift */,
+				F406F58A2424C9E600854D00 /* Reachability.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21A331EC293C4C66C13F765C8F25C81F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E049730AB1C260419875094920D4059 /* Pods-ChineWVOpenOBFS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39A124F5F778138C3D524C4A6FD4816 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4542AC5E904D71C4BDC977FFE559628 /* ChineWVOpenOBFS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38932524DF86AFD4E2B4547720101E73 /* Pods-ChineWVOpenOBFS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B0D56DF85A3BB8878875176483935A /* Build configuration list for PBXNativeTarget "Pods-ChineWVOpenOBFS_Tests" */;
+			buildPhases = (
+				21A331EC293C4C66C13F765C8F25C81F /* Headers */,
+				D30442993D5A213D6AE427B474398D16 /* Sources */,
+				5506418C0CF6B8BBDF0312AFBF37FD51 /* Frameworks */,
+				60AA884107E73B290594E117744E0AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8E6F2C76929792D0AE174E8E1945E46 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChineWVOpenOBFS_Tests";
+			productName = "Pods-ChineWVOpenOBFS_Tests";
+			productReference = 77993C9A0DFDA0289653F60C041CD890 /* Pods_ChineWVOpenOBFS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6537B356E144CA0F3987CE0906E7CFC /* ChineWVOpenOBFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656EB2EFCFD8597B821FD0676AC88ABD /* Build configuration list for PBXNativeTarget "ChineWVOpenOBFS" */;
+			buildPhases = (
+				D39A124F5F778138C3D524C4A6FD4816 /* Headers */,
+				9D36A7F197BECCE5D9479C8F37D78DB0 /* Sources */,
+				EDEA6277D3A84A1BBF11819EFE42AD93 /* Frameworks */,
+				D444B8E5874EF82D65C7821A262D986B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineWVOpenOBFS;
+			productName = ChineWVOpenOBFS;
+			productReference = 1060FEE5707FB6E45544B75C15E692E2 /* ChineWVOpenOBFS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					E6537B356E144CA0F3987CE0906E7CFC = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D4F5B10978542E8859E143E36A3D0962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6537B356E144CA0F3987CE0906E7CFC /* ChineWVOpenOBFS */,
+				38932524DF86AFD4E2B4547720101E73 /* Pods-ChineWVOpenOBFS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60AA884107E73B290594E117744E0AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444B8E5874EF82D65C7821A262D986B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D36A7F197BECCE5D9479C8F37D78DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F406F5852424A7DC00854D00 /* ChineWVOpenOBFS.swift in Sources */,
+				F406F58B2424C9E600854D00 /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30442993D5A213D6AE427B474398D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8E6F2C76929792D0AE174E8E1945E46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChineWVOpenOBFS;
+			target = E6537B356E144CA0F3987CE0906E7CFC /* ChineWVOpenOBFS */;
+			targetProxy = 0B0261F3413D0C774E46165128A0B277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		619A9C9ED9A649CDFC1EF1FEA3BFB262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414E4D2583ECE82620A2B0066989106B /* ChineWVOpenOBFS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS.modulemap";
+				PRODUCT_MODULE_NAME = ChineWVOpenOBFS;
+				PRODUCT_NAME = ChineWVOpenOBFS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66995D1A3CA9853C5FE2635343383880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09822D6F35696D74EF92081330C50783 /* Pods-ChineWVOpenOBFS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChineWVOpenOBFS_Tests/Pods-ChineWVOpenOBFS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChineWVOpenOBFS_Tests/Pods-ChineWVOpenOBFS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Command CompileSwiftSources failed with a nonzero exit code";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8406C85251784FDA91D284E5E634105B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414E4D2583ECE82620A2B0066989106B /* ChineWVOpenOBFS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS.modulemap";
+				PRODUCT_MODULE_NAME = ChineWVOpenOBFS;
+				PRODUCT_NAME = ChineWVOpenOBFS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC365EF3001A6E9C50A9B5AC2D41C75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C69AB94DAFFD18618E7B95780BFDCDA /* Pods-ChineWVOpenOBFS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChineWVOpenOBFS_Tests/Pods-ChineWVOpenOBFS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChineWVOpenOBFS_Tests/Pods-ChineWVOpenOBFS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Command CompileSwiftSources failed with a nonzero exit code";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43B0D56DF85A3BB8878875176483935A /* Build configuration list for PBXNativeTarget "Pods-ChineWVOpenOBFS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66995D1A3CA9853C5FE2635343383880 /* Debug */,
+				EC365EF3001A6E9C50A9B5AC2D41C75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656EB2EFCFD8597B821FD0676AC88ABD /* Build configuration list for PBXNativeTarget "ChineWVOpenOBFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8406C85251784FDA91D284E5E634105B /* Debug */,
+				619A9C9ED9A649CDFC1EF1FEA3BFB262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
