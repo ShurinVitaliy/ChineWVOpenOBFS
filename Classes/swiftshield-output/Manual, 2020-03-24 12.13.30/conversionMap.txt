@@ -1,0 +1,8 @@
+//
+// SwiftShield Conversion Map
+// Manual mode, 2020-03-24 12.13.30
+// Deobfuscate crash logs (or any text file) by running:
+// swiftshield -deobfuscate CRASH_FILE -deobfuscate_map THIS_FILE
+//
+
+startReachable__s ===> oGCPXnvfhYfpnDKgQpgnHmnppkYhLJBC

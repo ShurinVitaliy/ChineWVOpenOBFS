@@ -12,7 +12,7 @@
 		BC4C539277DD13B00E862EF3122E872D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C4542AC5E904D71C4BDC977FFE559628 /* ChineWVOpenOBFS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE1DEF97CD9E7B67063B592BFB2E7F1 /* ChineWVOpenOBFS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F406F5852424A7DC00854D00 /* ChineWVOpenOBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406F5842424A7DC00854D00 /* ChineWVOpenOBFS.swift */; };
-		F406F58B2424C9E600854D00 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406F58A2424C9E600854D00 /* Reachability.swift */; };
+		F406F58B2424C9E600854D00 /* MHPALNlBrChbkJVrrUlYwVkjgHFPbKMj.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406F58A2424C9E600854D00 /* MHPALNlBrChbkJVrrUlYwVkjgHFPbKMj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		E02DBF80DC058408396602C8B5140DF8 /* ChineWVOpenOBFS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ChineWVOpenOBFS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E1F48A5F4F567CF9882E4C6C2D1B27B4 /* ChineWVOpenOBFS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChineWVOpenOBFS-dummy.m"; sourceTree = "<group>"; };
 		F406F5842424A7DC00854D00 /* ChineWVOpenOBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineWVOpenOBFS.swift; sourceTree = "<group>"; };
-		F406F58A2424C9E600854D00 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F406F58A2424C9E600854D00 /* MHPALNlBrChbkJVrrUlYwVkjgHFPbKMj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHPALNlBrChbkJVrrUlYwVkjgHFPbKMj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				F406F5842424A7DC00854D00 /* ChineWVOpenOBFS.swift */,
-				F406F58A2424C9E600854D00 /* Reachability.swift */,
+				F406F58A2424C9E600854D00 /* MHPALNlBrChbkJVrrUlYwVkjgHFPbKMj.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F406F5852424A7DC00854D00 /* ChineWVOpenOBFS.swift in Sources */,
-				F406F58B2424C9E600854D00 /* Reachability.swift in Sources */,
+				F406F58B2424C9E600854D00 /* MHPALNlBrChbkJVrrUlYwVkjgHFPbKMj.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
